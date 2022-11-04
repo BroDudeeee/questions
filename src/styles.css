@@ -1,0 +1,58 @@
+body {
+  margin: 4rem 0 0 0;
+  background-color: darkslategrey;
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.quests {
+  margin-top: 3rem;
+}
+
+.questsAnswers {
+  background: whitesmoke;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px 0 0 0;
+}
+
+.question {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  padding: 1px 10px;
+  margin: 20px;
+  border-radius: 5px;
+  max-width: 28rem;
+  background: white;
+}
+
+.titleBtn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: -25px;
+}
+
+.plusMinusBtn {
+  background-color: white;
+  border-radius: 100%;
+  cursor: pointer;
+  font-size: large;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+}
+
+.plusMinusBtn:hover {
+  background-color: black;
+  color: white;
+}
+
+@media (min-width: 700px) {
+  .questsAnswers {
+    display: flex;
+  }
+  .questsAnswers h2 {
+    padding-top: 2rem;
+  }
+}
